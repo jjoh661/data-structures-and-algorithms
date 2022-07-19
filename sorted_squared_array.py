@@ -16,7 +16,3 @@ def sortedSquaredArray(array):
             largerValueIdx -= 1
 
     return sortedSquares
-
-array1 = [1, 2, 3, 5, 6, 8, 9]
-
-print(sortedSquaredArray(array1))

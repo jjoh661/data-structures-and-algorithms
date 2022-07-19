@@ -24,12 +24,3 @@ def updateScores(team, points, scores):
         scores[team] = 0
 
     scores[team] += points
-
-competitions1 = [
-    ["HTML", "C#"],
-    ["C#", "Python"],
-    ["Python", "HTML"],
-]
-results1 = [0, 0, 1]
-
-print(tournamentWinner(competitions1, results1))

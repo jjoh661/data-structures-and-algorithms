@@ -7,8 +7,3 @@ def isValidSubsequence(array, sequence):
         if sequence[seqIdx] == value:
             seqIdx += 1
     return seqIdx == len(sequence)
-
-array1 = [5, 1, 22, 25, 6, -1, 8, 10]
-sequence1 = [1, 6, -1, 10]
-
-print(isValidSubsequence(array1, sequence1))

@@ -10,7 +10,3 @@ def nonConstructibleChange(coins):
         currentChangeCreated += coin
 
     return currentChangeCreated + 1
-
-coins1 = [5, 7, 1, 1, 2, 3, 22]
-
-print(nonConstructibleChange(coins1))

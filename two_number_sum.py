@@ -8,8 +8,3 @@ def twoNumberSum(array, targetSum):
         else:
             nums[num] = True
     return []
-
-array1 = [3, 5, -4, 8, 11, 1, -1, 6]
-targetSum1 = 10
-
-print(twoNumberSum(array1, targetSum1))
